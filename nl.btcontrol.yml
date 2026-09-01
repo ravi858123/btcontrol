@@ -1,0 +1,25 @@
+Categories:
+  - Remote Controller
+  - System
+License: Apache-2.0
+SourceCode: https://gitlab.com/ravi858123/controller
+IssueTracker: https://gitlab.com/ravi858123/controller/-/issues
+Changelog: https://gitlab.com/ravi858123/controller/-/blob/main/CHANGELOG.md
+
+AutoName: BT Control
+Summary: Gebruik je telefoon als Bluetooth-gamepad
+RepoType: git
+Repo: https://gitlab.com/ravi858123/controller.git
+
+Builds:
+  - versionName: '2.0.1'
+    versionCode: 3
+    commit: v2.0.1
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '2.0.1'
+CurrentVersionCode: 3
